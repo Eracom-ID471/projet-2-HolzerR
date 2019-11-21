@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+{% include head.html %}
+
+  <body>
+{% include header.html %}
+
+    {{ content}}
+
+
+
+    <!--
+    <h1>{{ projets-animation.ranking}}.
+      <a href="{{ projets-animation.url }}">{{ projets-animation.title }}</a>
+    </h1>
+
+    <p>{{ site.short_description }} </p> -->
+
+    {% for projet in site.projets-animation %}
+      <a href="{{ projet.url }}">
+        <h1 class="majuscule"> {{ projet.classement }} . {{projet.title}}</h1>
+        <img class="petit" src="{{ projet.image }}"/>
+      </a>
+
+
+    {% endfor %}
+
+
+{% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <img src="{{ page.image }}" class="petit"/>
+    <h1>{{page.classement}}</h1>
+    <h3>{{page.realisateur}}</h3>
+    <h1>{{page.cover}}  <i>{{page.title}}</i></h1>
+    {{ content}}
+
+    {% include footer.html %}
+  </body>
+</html>
