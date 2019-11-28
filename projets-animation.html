@@ -1,0 +1,11 @@
+---
+layout: list
+titre: "Projets Animation"
+---
+{% for projet in site.projets-animation %}
+  <a href="{{ projet.url }}">
+    <h1 class="majuscule"> {{ projet.classement }} . {{projet.title}}</h1>
+    <img class="petit" src="{{ projet.image }}"/>
+  </a>
+
+{% endfor %}
