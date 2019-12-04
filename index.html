@@ -2,5 +2,10 @@
 layout: list
 titre: "index"
 ---
-<a href="projets-animation.html"> Top animation </a>
-<a href="projets-rap-2019.html"> top rap </a>
+{% for link in site.nav-links %}
+<h1 class="space">
+  <a class="link" href="{{link.link | relative_url }}">
+    {{ link.name}}
+  </a>
+</h1>
+{% endfor %}
