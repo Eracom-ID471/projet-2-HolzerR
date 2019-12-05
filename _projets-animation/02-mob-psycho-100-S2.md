@@ -1,6 +1,6 @@
 ---
 layout: post
-titre: Mob Psycho 100 S2
+title: Mob Psycho 100 S2
 classement : 2
 image: "/assets/img/Mob_Psycho_100_S2.jpg"
 realisateur: Yuzuru Tachikawa

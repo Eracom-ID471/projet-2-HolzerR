@@ -7,5 +7,5 @@ description:
 realisateur: Hamza
 short_description : film très sympa
 commentaire:
-ays: Belgique
+pays: Belgique
 ---

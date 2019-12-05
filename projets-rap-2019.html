@@ -6,7 +6,7 @@ titre: "Projet rap 2019"
 {% for projet in site.projets-rap-2019 %}
   <a href="{{ projet.url   | relative_url }}">
     <h1 class="majuscule"> {{ projet.classement }} . {{projet.title}}</h1>
-    <img class="petit" src="{{ projet.image  | relative_url}}"/>
+    <img class="petit zoom" src="{{ projet.image  | relative_url}}"/>
   </a>
 
 {% endfor %}

@@ -9,6 +9,35 @@ body {
 
 }
 
+ul {
+  list-style: none;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff85f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffcb6f;
+}
 .space {
 
 }
@@ -23,8 +52,19 @@ body {
   width: 100%
 }
 
+.zoom {
+  transition: transform .2s; /* Animation */
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.025);
+}
+
+
 img:hover{
-  opacity: .8;
+  opacity: .9;
   // width: 50px;
   // height: 50px;
 }
@@ -32,6 +72,8 @@ img:hover{
 
 
 body {
-background: linear-gradient(#e66465, #9198e5);
-  text-align: center;
+
+  ckground: rgb(255,203,111);
+  background: linear-gradient(0deg, rgba(255,203,111,1) 19%, rgba(255,248,95,1) 89%);  text-align: center;
+  min-height: 99vh;
 }
