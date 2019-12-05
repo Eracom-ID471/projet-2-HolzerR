@@ -1,6 +1,6 @@
 ---
 layout: post
-title: igor
+title: IGOR
 classement : 1
 image: "/assets/img/IGOR.jpg"
 description:
